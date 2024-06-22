@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(29 108 160 / 34%);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1, #title{
+    text-shadow: 5px 5px 10px grey;
+    text-align: center;
+    font-size: 3em;
+    bottom: 0;
+}
+
+blockquote{
+    top: 0;
+    text-align: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+}
+
+#img-caption{
+    text-align: center;
+}
+
+#main{
+    font-family: monospace;
+}
+
+div #tribute-info{
+    box-shadow: 20px 20px 15px grey;
+    background-color: rgb(0 0 0 / 11%);
+    margin-top: 50px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 5%;
+}
+
+#title-musk{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+#title-invention{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+
+.row {margin: 0 -5px;}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 960px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #95bccb;
+    border-radius: 10px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+img {
+    border-radius: 5px 5px 0 0;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+#tribute-link{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+footer p{
+    text-decoration: aquamarine;
+}
