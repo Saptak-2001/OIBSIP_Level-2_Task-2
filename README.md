@@ -1,6 +1,6 @@
-# OIBSIP_Level-2_Task-2
+# TRIBUTE PAGE
 
-This repository contains the completed second task for Level-2 which is a tribute page with the help of HTML and CSS.
+This repository contains building a tribute page with the help of HTML and CSS.
 
 ## Description
 
